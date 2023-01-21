@@ -1,0 +1,11 @@
+name: 'Migrate NYU HSL Data Repository Finder Data'
+type: module
+description: 'Custom migration for NYU HSL Data Repository Finder Data.'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - migrate
+  - migrate_source_csv
+  - migrate_plus
+  - migrate_tools
+  - cubear:finder

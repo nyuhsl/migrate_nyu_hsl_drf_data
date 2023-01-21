@@ -1,0 +1,26 @@
+id: nyu_hsl_drf_taxonomy_control_types
+label: Migrate NYU HSL Data Repository Finder Control Types Taxonomy
+status: true
+
+migration_group: nyu_hsl_drf_data_migrations
+source:
+  plugin: embedded_data
+  data_rows:
+    - name: checkbox
+    - name: radio
+  ids:
+    name:
+      type: string
+
+process:
+  # Set these properties from constants.
+  uid: constants/uid
+  name: name
+
+destination:
+  plugin: 'entity:taxonomy_term'
+  default_bundle: control_type
+  
+migration_dependencies:
+  required: { }
+  optional: { }

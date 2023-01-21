@@ -1,0 +1,7 @@
+id: nyu_hsl_drf_data_migrations
+label: NYU HSL Data Repository Finder Data
+description: Migration configuration for migrating NYU HSL Data Repository Finder Data
+source_type: CSV resource
+shared_configuration:
+  source:
+    plugin: csv

@@ -1,0 +1,43 @@
+<?php
+
+/**
+ * @file
+ * Contains migrate_nyu_hsl_drf_data.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function migrate_nyu_hsl_drf_data_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the migrate_nyu_hsl_drf_data module.
+    case 'help.page.migrate_nyu_hsl_drf_data':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom migration for NYU HSL Data Repository Finder data') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+
+/**
+ * Implements hook_uninstall().
+ */
+function migrate_nyu_hsl_drf_data_uninstall()
+{
+  $configs = [
+    'migrate_plus.migration.nyu_hsl_drf_taxonomy_control_types',
+    'migrate_plus.migration.nyu_hsl_drf_taxonomy_facets',
+	'migrate_plus.migration_group.nyu_hsl_drf_data_migrations',
+  ];
+
+  foreach ($configs as $config) {
+    \Drupal::database()->delete('config')->condition('name', $config)->execute();
+  }
+
+  drupal_flush_all_caches();
+}
