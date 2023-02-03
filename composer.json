@@ -1,7 +1,7 @@
 {
     "name": "migrate_nyu_hsl_drf_data",
     "type": "drupal-custom-module",
-    "description": "Custom module for migrating NYU HSL Archives Data Repository Finder data.",
+    "description": "Custom module for migrating NYU HSL Data Repository Finder data.",
     "keywords": [
     ],
     "homepage": "https://github.com/akabhan/migrate_nyu_hsl_drf_data",
@@ -13,6 +13,8 @@
     "require": {
         "drupal/migrate_tools": "^4.0",
         "drupal/migrate_plus": "^4.0",
-        "drupal/migrate_source_csv": "^3.0"
+        "drupal/migrate_source_csv": "^3.0",
+        "league/csv": "^9.0",
+        "cubear/finder": "^1.0"
     }
 }

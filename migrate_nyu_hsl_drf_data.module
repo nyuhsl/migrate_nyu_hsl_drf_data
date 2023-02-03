@@ -5,7 +5,9 @@
  * Contains migrate_nyu_hsl_drf_data.module.
  */
 
+use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Routing\RouteMatchInterface;
+use \Symfony\Component\Yaml\Yaml;
 
 /**
  * Implements hook_help().
@@ -23,6 +25,33 @@ function migrate_nyu_hsl_drf_data_help($route_name, RouteMatchInterface $route_m
   }
 }
 
+/**
+ * Deletes the existing configuration and imports new configuration from YAML file.
+ */
+function migrate_nyu_hsl_drf_data_change_default_view_mode() {
+	// Get the config factory.
+	$config_factory = \Drupal::service('config.factory');
+
+	// Load the view modes config.
+	$view_modes = $config_factory->getEditable('core.entity_form_display.paragraph.service_paragraphs.default');
+
+	// Set the default view mode for the Paragraph type.
+	$view_modes->set('paragraph.nyu_hsl', [
+		'label' => 'NYU HSL Teaser',
+		'custom_settings' => 1,
+	])->save();
+
+	// Set the default view mode for the Paragraph type in the node display settings.
+	$display = $config_factory->getEditable('core.entity_view_display.paragraph.service_paragraphs.default');
+	$display->setComponent('field_paragraph', [
+		'type' => 'entity_reference_paragraphs',
+		'settings' => [
+			'view_mode' => 'nuy_hsl',
+		],
+		'weight' => 0,
+	])->save();
+
+}
 
 /**
  * Implements hook_uninstall().
@@ -30,8 +59,27 @@ function migrate_nyu_hsl_drf_data_help($route_name, RouteMatchInterface $route_m
 function migrate_nyu_hsl_drf_data_uninstall()
 {
   $configs = [
-    'migrate_plus.migration.nyu_hsl_drf_taxonomy_control_types',
-    'migrate_plus.migration.nyu_hsl_drf_taxonomy_facets',
+	'field.field.paragraph.service_paragraphs.field_data_access_attributes',
+	'field.field.paragraph.service_paragraphs.field_data_access_policy',
+	'field.field.paragraph.service_paragraphs.field_data_submission_attributes',
+	'field.field.paragraph.service_paragraphs.field_data_submission_policy',
+	'field.field.paragraph.service_paragraphs.field_description',
+	'field.field.paragraph.service_paragraphs.field_funders',
+	'field.field.paragraph.service_paragraphs.field_keywords',
+	'field.field.paragraph.service_paragraphs.field_repository_abbreviation',
+	'field.field.paragraph.service_paragraphs.field_repository_url',
+	'field.storage.paragraph.field_data_access_attributes',
+	'field.storage.paragraph.field_data_access_policy',
+	'field.storage.paragraph.field_data_submission_attributes',
+	'field.storage.paragraph.field_data_submission_policy',
+	'field.storage.paragraph.field_description',
+	'field.storage.paragraph.field_funders',
+	'field.storage.paragraph.field_keywords',
+	'field.storage.paragraph.field_repository_abbreviation',
+	'field.storage.paragraph.field_repository_url',
+	'migrate_plus.migration.nyu_hsl_drf_taxonomy_control_types',
+	'migrate_plus.migration.nyu_hsl_drf_taxonomy_facets',
+	'migrate_plus.migration.nyu_hsl_drf_service_paragraphs',
 	'migrate_plus.migration_group.nyu_hsl_drf_data_migrations',
   ];
 

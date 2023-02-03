@@ -5,3 +5,5 @@ source_type: CSV resource
 shared_configuration:
   source:
     plugin: csv
+    delimiter: ','
+    header_row_count: 1

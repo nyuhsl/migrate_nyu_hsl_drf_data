@@ -1,0 +1,33 @@
+id: nyu_hsl_drf_service_paragraphs
+label: Migrate NYU HSL Data Repository Finder Service Paragraphs
+status: true
+
+migration_group: nyu_hsl_drf_data_migrations
+source:
+  path: modules/custom/migrate_nyu_hsl_drf_data/source/service_paragraphs.csv
+
+  ids:
+    - title
+  constants:
+    # Everything gets created as admin
+    uid: 1
+
+process:
+  uid: constants/uid
+  field_repository_abbreviation: repository_abbreviation
+  field_data_access_attributes: data_access_attributes
+  field_data_access_policy: data_access_policy
+  field_data_submission_attributes: data_submission_attributes
+  field_data_submission_policy: data_submission_policy
+  field_description: description
+  field_funders: funders
+  field_keywords: keywords
+  field_repository_url: repository_url
+
+destination:
+  plugin: 'entity_reference_revisions:paragraph'
+  default_bundle: service_paragraphs
+
+migration_dependencies:
+  required:
+  optional: { }

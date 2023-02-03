@@ -1,0 +1,373 @@
+﻿title,field_repository_abbreviation,field_data_access_format,,field_data_access_policy,field_data_submission_attributes,field_data_submission_policy,field_description,field_funders,field_keywords,field_repository_url
+Help,,,,,,,,,,
+database of Genotypes and Phenotypes,dbGaP,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Allows for embargo</li>
+	<li>Registration required to access some or all of the data in the repository</li>
+</ul>",https://sharing.nih.gov/accessing-data/accessing-genomic-data,"<ul>
+	<li>Data submission restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://sharing.nih.gov/genomic-data-sharing-policy/submitting-genomic-data,"<p>The NCBI database of Genotypes and Phenotypes (dbGaP) archives and distributes the results of studies that have investigated the interaction of genotype and phenotype, including genome-wide association studies, medical sequencing, molecular diagnostic assays, and association between genotype and non-clinical traits. The database provides summaries of studies, the contents of measured variables, and original study document text. Through the controlled access, users may access individual-level data such as phenotypic data tables and genotypes.</p>",National Center for Biotechnology Information; National Institutes of Health; U.S. Department of Health & Human Services; United States National Library of Medicine,<p>cells morphology; genetic recombination; genotype-environment interaction; homology; molecular diagnosis; morphology; phenotype</p>,https://www.ncbi.nlm.nih.gov/gap/
+NeuroMorpho,,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",http://neuromorpho.org/useterm.jsp,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",http://neuromorpho.org/data_submission_guide.jsp,<p>NeuroMorpho.Org is a centrally curated inventory of digitally reconstructed human and animal neurons associated with peer-reviewed publications. It is a collection of publicly accessible neuronal reconstructions in a vector format with associated metadata which can be used for detailed single cell simulations.</p>,"Krasnow Institute for Advanced Study at George Mason University, National Institutes of Health",<p>brain region; cell types; morphology; neurology; neurons; neuroscience</p>,http://neuromorpho.org/
+OpenNeuro,,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Allows for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://openneuro.org/faq,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission does NOT require application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://openneuro.org/faq,"<p>The NCBI database of Genotypes and Phenotypes (dbGaP) archives and distributes the results of studies that have investigated the interaction of genotype and phenotype, including genome-wide association studies, medical sequencing, molecular diagnostic assays, and association between genotype and non-+I3+I5",NIH The BRAIN Initiative; National Science Foundation; Stanford University; Laura and John Arnold Foundation; Squishymedia; Novo Nordisk Foundation; Copenhagen University Hospital,<p>biology; brain; brain chemistry; electroencephalography data; intracranial electroencephalography data; magnetic resonance imaging; magnetoencephalography data; molecular biology; neuroscience; positron emission tomography</p>,https://openneuro.org/
+NIDDK Central Repository,NIDDK-CR,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Allows for embargo</li>
+	<li>Registration required to access some or all of the data in the repository</li>
+</ul>",https://repository.niddk.nih.gov/static/NIDDK%20data%20sharing%20policy.pdf,"<ul>
+	<li>Data submission restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://repository.niddk.nih.gov/static/NIDDK%20data%20sharing%20policy.pdf,<p>The National Institute of Diabetes and Digestive and Kidney Diseases Central Repository (NIDDK-CR) stores data collected in designated NIDDK-funded clinical studies. Most studies collect genetic biospecimens and carry out high-throughput genotyping which can be used to match genotypes to phenotypes for genetic analyses.</p>,"Booz Allen Hamilton; National Institutes of Health, National Institute of Diabetes and Digestive and Kidney Diseases",<p>diabetes; digestive and kidney diseases</p>,https://repository.niddk.nih.gov/home/
+Image &amp; Data Archive,IDA,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration required to access some or all of the data in the repository</li>
+</ul>",https://ida.loni.usc.edu/services/Menu/PDF/IDA_User_Manual.pdf,"<ul>
+	<li>Possible fee for submission</li>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://ida.loni.usc.edu/services/Menu/PDF/IDA_User_Manual.pdf,"<p>The Image &amp; Data Archive (IDA) is run by the Laboratory of Neuro Imaging (LONI) at USC. The IDA is used for archiving, searching, sharing, tracking and disseminating neuroimaging and related clinical data. It accommodates MRI, PET, MRA, DTI and other imaging modalities.</p>","Alzheimer's Disease Neuroimaging Initiative; Michael J. Fox Foundation for Parkinson's Research, Parkinson's Progression Markers Initiative; National Institutes of Health; University of Southern California, Keck School of Medicine, USC Mark and Mary Steve",<p>aging; brain; cerebral metabolism; clinical research studies; clinical trials; human health; neuroimaging; neuromedicine; neurosciences</p>,https://ida.loni.usc.edu/login.jsp
+The Immunology Database and Analysis Portal,ImmPort,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration required to access some or all of the data in the repository</li>
+</ul>",http://www.immport.org/immport-open/public/home/studySearch,"<ul>
+	<li>Data submission restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",http://www.immport.org/immport-open/public/home/dataSubmission,"<p>ImmPort is a public data sharing repository that archives clinical study and trial data generated by NIAID/DAIT-funded investigators. Data types include DAIT-funded clinical trials, associated mechanistic studies, and other basic and applied immunology research programs.</p>","National Institute of Allergy and Infectious Diseases, Division of Allergy, Immunology, and Transplantation; Northrop Grumman Health Solutions; United States Department  of Health and Human Services; University of California San Francisco",<p>allergy; clinical research; clinical trials; cytometry; data service; immunology; infectious disease; ontology; proteomics; transcriptomics; transplantation; vaccine</p>,https://www.immport.org/shared/home
+Child Language Data Exchange System,CHILDES,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Allows for embargo</li>
+	<li>Registration required to access some or all of the data in the repository</li>
+</ul>",https://talkbank.org/share/rules.html,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",http://talkbank.org/share/contrib.html ,"<p>CHILDES is the child language component of the TalkBank system. CHILDES contains data in a variety of languages with audio, video, and/or transcript files. TalkBank is a system for sharing and studying conversational interactions. The goal of Talkbank is to foster fundemental research in the study of human communication with an emphasis on spoken communication.&nbsp;</p>","National Institutes of Health, Eunice Kennedy Shriver National Institute of Child Health and Human Development;",<p>communication sciences; corpora; linguistic coding; phonbank; social sciences; lingistic; child; language; phonology; development; child language; conversation</p>,https://childes.talkbank.org/
+Data and Specimen Hub,DASH,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration required to access some or all of the data in the repository</li>
+</ul>",https://dash.nichd.nih.gov/Resource/Tutorial#browseStudies,"<ul>
+	<li>Data submission restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://dash.nichd.nih.gov/Resource/Tutorial#submitData,<p>The Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD) Data and Specimen Hub (DASH) is a centralized resource for researchers to store and access de-identified data from NICHD funded research studies for the purposes of secondary research use. DASH also serves as a portal for requesting biospecimens from selected DASH studies. It serves as a mechanism for NICHD-funded extramural and intramural investigators to share research data from studies in accordance with the NIH Data Sharing Policy and the NIH Genomic Data Sharing Policy.</p>,"National Institutes of Health; National Institutes of Health, Eunice Kennedy Shriver National Institute of Child Health and Human Development",<p>HIV/AIDS; biomedical science; biospecimens; clinical studies; critical care medicine; drug; medical trials; musculoskeletal medicine; obstetrics; reproductive health; pediatric health; pediatrics; infant health; infant; human development; biospecimens; pregnancy; womens health; fetus</p>,https://dash.nichd.nih.gov/
+Universal Protein Resource,UniProt,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",http://www.uniprot.org/,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission does NOT require specific data standards or forms</li>
+</ul>",http://www.uniprot.org/help/submissions,"<p>The Universal Protein Resource (UniProt) is a comprehensive resource for protein sequence and annotation data. The UniProt databases are the UniProt Knowledgebase (UniProtKB), the UniProt Reference Clusters (UniRef), and the UniProt Archive (UniParc).</p>","British Heart Foundation; European Molecular Biology Laboratory, European Bioinformatics Institute; National Institutes of Health; National Science Foundation; Protein Information Resource; State Secretariat for Education, Research and Innovation; Swiss I",<p>protein function; protein information</p>,https://www.uniprot.org/
+Biologic Specimen and Data Repository Information Coordinating Center,BioLINCC,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://biolincc.nhlbi.nih.gov/resource_overview/,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://biolincc.nhlbi.nih.gov/submit_datasets/,<p>The Biologic Specimen and Data Repository Coordinating Center (BioLINCC) coordinates data and biospecimens from NHLBI-funded studies that are available for use in other approved studies. The center also creates teaching data sets from NHLBI-funded studies for use in training future biostatisticians.</p>,"U.S. Department of Health & Human Services, National Institutes of Health, National Heart, Lung, and Blood Institute",<p>biological specimen; blood; diseases; epidemiology; health; heart; hematology; lung</p>,https://biolincc.nhlbi.nih.gov/home/
+NeuroImaging Tools and Resources Collaboratory,NITRC,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration required to access some or all of the data in the repository</li>
+</ul>",https://www.nitrc.org/plugins/mwiki/index.php/nitrc:User_Guide_-_Data_Access,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://www.nitrc.org/plugins/mwiki/index.php/nitrc:User_Guide_-_Data_Submission,"<p>The NeuroImaging Tools and Resources Collaboratory (NITRC) provides free access to data (MRI, EEG/MEG, CT, PET/SPECT, optical imaging, etc.), hosts a registry of neuroimaging analysis software, and enables pay-per-use cloud-based access to unlimited computing power, enabling worldwide scientific collaboration with minimal startup and cost. The NITRC and its components—the Resources Registry (NITRC-R), Image Repository (NITRC-IR), and Computational Environment (NITRC-CE) focus on expanding the scope of neuroinformatics software and data. NITRC Image Repository accepts datasets of de-identified, pre- and, if avaliable, post-processed datasets in commonly readable formats that fit their aquisition parameters. NITRC Resource Repository is a clearinghouse for neuroimaging software and resources that allows researchers to register their tool/resource.</p>","National Institutes of Health, National Insitute of Mental Health; National Institutes of Health, National Insitute of Drug Abuse; National Institutes of Health, National Institute of Neurological Disorders and Stroke; National Institutes of Health, Bluep",<p>clinical neuroinformatics; genetics; genomics; information theory; mental health; neuroimaging; neuroinformatics; neuroscience; optical imaging; computational neuroscience; imaging; neurocognition; brain; cognition</p>,https://www.nitrc.org/
+Mouse Genome Informatics,MGI,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",http://www.informatics.jax.org/software.shtml,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission does NOT require application and approval</li>
+	<li>Data submission does NOT require specific data standards or forms</li>
+</ul>",http://www.informatics.jax.org/submit.shtml,"<p>Mouse Genome Informatics (MGI) is the international database resource for the laboratory mouse, providing integrated genetic, genomic, and biological data to facilitate the study of human health and disease.</p>","National Institutes of Health,  Eunice Kennedy Shriver National Institute of Child Health and Human Development; National Institutes of Health,  National Cancer Institute; National Institutes of Health, National Human Genome Research Institute; The Jackso",<p>disease models; gene expression; genetics; genomic maps; genomics; mouse; sequences</p>,http://www.informatics.jax.org/
+Wormbase,,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",http://www.wormbase.org/about/policies#0--10,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission does NOT require application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",http://www.wormbase.org/about/userguide#023-15-5,"<p>WormBase is an international consortium of biologists and computer scientists providing the research community with accurate, current, accessible information concerning the genetics, genomics and biology of C. elegans and related nematodes.</p>","Medical Research Council; US National Institutes of Health, National Human Genome Research Institute; WormBase consortium",<p>c elegans; gene mapping; gene structures; genome sequences; genomics; nematoda; nucleotides; orthology assignment; roundworm; worm</p>,https://www.wormbase.org/
+Zebrafish Information Network,ZFIN,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",http://zfin.org/ZFIN/misc_html/tips.html#newrecord,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission does NOT require application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://wiki.zfin.org/display/general/ZFIN+Data+Submissions,"<p>The Zebrafish Information Network (ZFIN) is the database of genetic and genomic data for the zebrafish (Danio rerio) as a model organism. ZFIN provides a wide array of expertly curated, organized and cross-referenced zebrafish research data.</p>","National Institutes of Health; National Institutes of Health, National Human Genome Research Institute; University of Oregon; Zebrafish International Resource Center",<p>freshwater fish; gene expression; genetics; genome sequence; genomics; genotype; marine biology; molecular neuroanatomy; phenotypes; vertebrates</p>,http://zfin.org/
+Vivli,,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Allows for embargo</li>
+	<li>Registration required to access some or all of the data in the repository</li>
+</ul>",https://vivli.org/resources/requestdata/,"<ul>
+	<li>Possible fee for submission</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://vivli.org/resources/sharedata/,"<p>Vivli is an independent, non-profit organization that has developed a global data-sharing and analytics platform. Our focus is on sharing individual participant-level data from completed clinical trials to serve the international research community. The Vivli platform includes an independent data repository, in-depth search engine and a secure research environment.</p>",Arnold Ventures; Doris Duke Charitable Foundation; Helmsley Charitable Trust; Lyda Hill Foundation; Multi-Regional Clinical Trials; PhRMA,<p>clinical trial; clinical trials; data discovery methods; health care; individual participant-level data (IPD); medical treatments; patients; studies</p>,https://vivli.org/
+Immune Epitope Database and Analysis Resource,IEDB,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",http://www.iedb.org/database_export_v3.php,"<ul>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://help.iedb.org/hc/en-us/articles/114094146791,"<p>The Immune Epitope Database (IEDB) is a freely available resource funded by NIAID. It catalogs experimental data on antibody and T cell epitopes studied in humans, non-human primates, and other animal species in the context of infectious disease, allergy, autoimmunity and transplantation. The IEDB also hosts tools to assist in the prediction and analysis of epitopes.</p>",La Jolla Institute for Allergy and Immunology; National Institute of Allergy and Infectious Disease; National Institutes of Health; United States Department of Health and Human Services,<p>COVID-19; allergenes; alloantigenes; autoimmune diseases; immune epotopes; immunology; infectious diseases; major histocompatibility complex MHC; pathogens; transplant</p>,https://www.iedb.org/home_v3.php
+National Archive of Computerized Data on Aging,NACDA ,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Allows for embargo</li>
+	<li>Registration required to access some or all of the data in the repository</li>
+</ul>",https://www.icpsr.umich.edu/web/NACDA/search/studies,"<ul>
+	<li>Data submission restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+</ul>",https://www.icpsr.umich.edu/web/pages/NACDA/deposit.html,"<p>NACDA acquires, preserves, and shares data relevant to gerontological research. We curate data and documentation to promote effective research use, facilitate data sharing across the research community, and provide data user support for our hosted data collections.</p>","Inter-university Consortium for Political and Social Research; National Institutes of Health, National Institute on Aging; University of Michigan, Institute for Social Research",<p>aging; gerontology; health; mortality; social surveys</p>,https://www.icpsr.umich.edu/web/pages/NACDA/index.html
+National Sleep Research Resource,NSRR,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Registration required to access some or all of the data in the repository</li>
+	<li>Does NOT allow for embargo</li>
+</ul>",https://sleepdata.org/about,"<ul>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+	<li>Data submission NOT restricted by funder</li>
+</ul>",https://sleepdata.org/share,"<p>The NSRR web platform enables sharing of physiological signals and clinical data elements from well-characterized, de-identified, research cohorts and clinical trials. Data queries across studies (data pooling) are possible for demographics and data variables with shared common data elements.</p>","Brigham and Women's Hospital; National Institutes of Health, National Heart, Lung, and Blood Institute",<p>biomedicine; circadian disorder; overnight plethysmography; overnight polysomnograms; physionet; sleep disorder; sleep medicine</p>,https://sleepdata.org/
+Stimulating Peripheral Activity to Relieve Conditions,SPARC,basic_html,"<ul>
+	<li>Allows for embargo</li>
+	<li>Does NOT provide for controlled access</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://docs.sparc.science/docs/how-to-use-and-access-sparc-data,"<ul>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+	<li>Data submission NOT restricted by funder</li>
+</ul>",https://docs.sparc.science/docs/submitting-a-dataset-to-sparc,"<p>The SPARC Portal provides interactive access to autonomic neuroscience research, including multimodal data, maps, and computational studies. Data deposted focuses on the role of the autonomic nervous system in controlling organ function.&nbsp;</p>","IT'IS Foundation; National Institutes of Health, Office of Strategic Coordination, The Common Fund; The University of Auckland; UC San Diego; University of Pennsylvania",<p>anatomy; bioelectronic medicine; diseases; nervous system</p>,https://sparc.science
+Metabolomics Workbench,MetWB,basic_html,"<ul>
+	<li>Allows for embargo</li>
+	<li>Does NOT provide for controlled access</li>
+	<li>Registration NOT required to access data</li>
+</ul>",http://www.metabolomicsworkbench.org/about/termsofuse.php,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",http://www.metabolomicsworkbench.org/nihmetabolomics/datasharing.html,"<p>The Metabolomics Workbench (MetWB) is a repositorical for metabolics data and metadata and provides access to analysis tools, metabolite standards, protocols, tutorials, and more. Data shared on MetWB includes primary raw data as well as the biological and analytical metadat necessary for interpretation. It is meant to share data from preclinical, clinical,a nd translational research.&nbsp;</p>","National Institutes of Health; University of California, San Diego, San Diego Supercomputer Center, Metabolomics Program's Data Repository and Coordinating Center",<p>bioinformatics; cell; cellular biology; chemical fingerprints; health; magnetic resonance spectrometry; mass spectrometry; metabolism; physiology</p>,http://www.metabolomicsworkbench.org/
+National Archive of Computerized Data on Aging - Open Aging Repository,NACDA-OAR,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://www.openicpsr.org/openicpsr/search/nacda-oar/studies,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission does NOT require application and approval</li>
+	<li>Data submission does NOT require specific data standards or forms</li>
+</ul>",https://www.openicpsr.org/openicpsr/nacda-oar/deposit-instructions,"<p>The NACDA - Open Aging Repository (NACDA-OAR) from the National Archive of Computerized Data on Aging (NACDA) offers free self-publishing options for gerontological researchers to share their research projects. Data collections published in the NACDA-OAR are immediately distributed as-is for immediate research use. NACDA-OAR services are primarily meant to be a resource for NIA-funded projects, although all aging-related data may use the service.</p>","Inter-university Consortium for Political and Social Research; National Institutes of Health, National Institute on Aging; University of Michigan, Institute for Social Research",<p>aging; gerontology; health; mortality; social surveys</p>,https://www.openicpsr.org/openicpsr/nacda-oar
+AD Knowledge Portal,,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Registration required to access some or all of the data in the repository</li>
+	<li>Does NOT allow for embargo</li>
+</ul>",https://adknowledgeportal.synapse.org/DataAccess/Instructions,"<ul>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+	<li>Data submission NOT restricted by funder</li>
+</ul>",https://adknowledgeportal.synapse.org/Contribute,"<p>The AD Knowledge Portal is a public data repository that stores and shares data and research knowledge focused on aging, dementia, and Alzheimer’s disease (AD). It is the NIH-designated repository and the distribution site for multi-omic data from human samples, cell-based and animal models, analysis results, analytical methodology and research tools generated by multiple National Institute on Aging supported Alzheimer's disease research programs and consortia. Data is available to qualified investigators as open or controlled access depending on the data type and data source.</p>","Alfred P. Sloan Foundation; Children's Tumor Foundation; Life Sciences Discovery Fund; Sage Bionetworks; National Institutes of Health, National Heart, Lung and Blood Institute; National Institutes of Health, National Institute of Aging; National Institut",<p>biomedicine; query structured data; record provenance; research communities</p>,https://adknowledgeportal.synapse.org/
+Open Science Framework,OSF,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Allows for embargo</li>
+	<li>Registration NOT required to access date</li>
+</ul>",https://osf.io/ ,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission does NOT require application and approval</li>
+	<li>Data submission does NOT require specific data standards or forms</li>
+</ul>",https://help.osf.io/article/218-sharing-data,"<p>The Open Science Framework (OSF) is a system for registering studies, documenting projects and sharing project materials privately within a team, and making components, such as data, publicly accessible. Data files may be shared directly from OSF, or data may be archived via add-ons with other systems such as Dataverse or FigShare.&nbsp;</p>",Center for Open Science; Center for Open Science partners,<p>generalist repository; archive; multidisciplinary; project management; research registration; workflow</p>,https://osf.io/
+Mendeley Data,,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Allows for embargo&nbsp;</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://data.mendeley.com/faq#mendeley-data ,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission does NOT require application and approval&nbsp;</li>
+	<li>Data submission does NOT require use of specific data standards or forms</li>
+</ul>",https://data.mendeley.com/faq#mendeley-data ,<p>Mendeley Data is a cloud-based generalist repository provided by Elsevier. It accepts data from any field of research and from any funder smaller than 10GB. It will provide online storage and preservation of your experimental research data.&nbsp;</p>,"Elsevier Inc., Mendeley Inc.",<p>generalist; interdisciplinary;&nbsp;</p>,https://data.mendeley.com/ 
+The Cancer Imaging Archive,TCIA,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Allows for embargo&nbsp;</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://www.cancerimagingarchive.net/access-data/,"<ul>
+	<li>Possible fee for submission</li>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval&nbsp;</li>
+	<li>Data submission does NOT require specific data standards or form</li>
+</ul>",http://www.cancerimagingarchive.net/primary-data/,"<p>TCIA is a service which de-identifies and hosts a large archive of medical images of cancer accessible for public download. The data are organized as “Collections”, typically patients related by a common disease (e.g. lung cancer), image modality (MRI, CT, etc) or research focus. DICOM is the primary file format used by TCIA for image storage. Supporting data related to the images such as patient outcomes, treatment details, genomics, pathology, and expert analyses are also provided when available.</p>","Frederick National Laboratory for Cancer Research; National Institutes of Health, National Cancer Institute; University of Arkansas for Medical Sciences",<p>CIP; Cancer Imaging Program; DICOM; Pathology; Radiology; biomarker; biomedical engineering; breast cancer; cancer; diagnosis; health informatics; medical imaging; medical research</p>,https://www.cancerimagingarchive.net/
+The Network Data Exchange,NDEx,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration required to access some or all of the data in the repository&nbsp;</li>
+</ul>",https://home.ndexbio.org/finding-and-querying-networks/,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission does NOT require application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",http://www.home.ndexbio.org/disclaimer-license/,"<p>The NDEx Project provides an open-source framework where scientists and organizations can share, store, manipulate, and publish biological network knowledge.<br />
+The NDEx Project maintains a web-accessible public server, a documentation website, provides seamless connectivity to Cytoscape as well as programmatic access using a variety of languages including R, Python, Javascript, and Java. NDEx users can create accounts or sign in using their Google credentials thanks to the supported open authentication (OAUTH2) method and mint DOIs for their networks to use in publications or include in other resources for long term access.</p>","NDEx Project; The Regents of the University of California, The Cytoscape Consortium, National Institute of General Medical Sciences",<p>biological networks; cancer; molecular interaction; pathway model; COVID-19</p>,https://home.ndexbio.org/index/
+FlyBase,,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",http://flybase.org/cgi-bin/qbgui.fr.html,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",http://flybase.org/submission/publication/,"<p>FlyBase is a database of genetic, genomic, and functional data for Drosophila species, with a focus on the model organism Drosophila melanogaster. FlyBase contains a complete annotation of the Drosophila melanogaster genome that is updated several times per year. It also includes a searchable bibliography of research on Drosophila genetics in the last century. The site also provides a large database of images illustrating the full genome, and several movies detailing embryogenesis.</p>","Harvard University, Department of Molecular and Cellular Biology; Indiana University, Department of Biology; National Human Genome Research Institute; National Institutes of Health; National Science Foundation; University of Cambridge, Department of Genet",<p>bioinformatics; cell biology; genomes; genomics; human health; neurobiology; Drosophila</p>,http://flybase.org/
+dbSNP,,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Allows for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://www.ncbi.nlm.nih.gov/snp,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://www.ncbi.nlm.nih.gov/snp/docs/submission/hts_launch_and_introductory_material/,"<p>dbSNP is a general public archive of all short sequence variation, not just single nucleotide substitutions that occur frequently enough in a population to be termed polymorphic, but also rare variants, including those with clinical assertions in ClinVar. dbSNP includes a broad collection of simple genetic variations such as single-base nucleotide substitutions, small-scale multi-base deletions or insertions, and microsatellite repeats.</p>","National Center for Biotechnology Information; National Institutes of Health, National Library of Medicine",<p>allele origin; diseases; genotype; germline; microsatellites; nucleotide; sequences</p>,https://www.ncbi.nlm.nih.gov/snp/
+dbVar,,basic_html,"<ul>
+	<li>Does NOT provide controlled access</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://www.ncbi.nlm.nih.gov/dbvar,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://www.ncbi.nlm.nih.gov/dbvar/content/submission/,"<p>dbSNP is a general public archive of all short sequence variation, not just single nucleotide substitutions that occur frequently enough in a population to be termed polymorphic, but also rare variants, including those with clinical assertions in ClinVar. dbSNP includes a broad collection of simple genetic variations such as single-base nucleotide substitutions, small-scale multi-base deletions or insertions, and microsatellite repeats.</p>","National Center for Biotechnology Information; National Institutes of Health, National Library of Medicine",<p>allele origin; diseases; genotype; germline; microsatellites; nucleotide; sequences</p>,https://www.ncbi.nlm.nih.gov/snp/
+Gene Expression Omnibus,GEO,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Allows for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://www.ncbi.nlm.nih.gov/geo/info/disclaimer.html,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards and forms</li>
+</ul>",https://www.ncbi.nlm.nih.gov/geo/info/submission.html,<p>Gene Expression Omnibus is a public functional genomics data repository supporting MIAME-compliant submissions of array- and sequence-based data. Tools are provided to help users query and download experiments and curated gene expression profiles.</p>,"National Center for Biotechnology Information; National Institutes of Health, U.S. National Library of Medicine",<p>Gene Expression; Genetic Regulation; Genomics Data</p>,http://www.ncbi.nlm.nih.gov/geo/
+GenBank,,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Allows for embargo&nbsp;</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://www.ncbi.nlm.nih.gov/genbank/,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://www.ncbi.nlm.nih.gov/genbank/submit/,"<p>GenBank is the NIH genetic sequence database, an annotated collection of all publicly available DNA sequences. GenBank is designed to provide and encourage access within the scientific community to the most up to date and comprehensive DNA sequence information.</p>",International Nucleotide Sequence Database Collaboration; National Center for Biotechnology Information; National Institutes of Health; U. S. National Library of Medicine; U.S. Department of Health & Human Services,<p>DNA; EST; GSS; STS; bioSample; clone; epigenomics; genomes; metagenomes; nucleotide; sequence data; transcriptome</p>,https://www.ncbi.nlm.nih.gov/genbank/
+PubChem,,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Allows for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://pubchem.ncbi.nlm.nih.gov/help.html,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission required application and approval&nbsp;</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://pubchemdocs.ncbi.nlm.nih.gov/submissions,"<p>PubChem provides information on the biological activities of small molecules. PubChem is organized as three linked databases (bioassay, compound, and substance data) within the NCBI's Entrez information retrieval system.</p>","National Center for Biotechnology Information; National Institutes of Health, U.S. National Library of Medicine",<p>Validation; biological screening; chemical name; chemical structure; small molecule; standardization; substance information</p>,https://pubchem.ncbi.nlm.nih.gov/
+Cell Image Library ,,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration NOT required to access to data</li>
+</ul>",http://www.cellimagelibrary.org/pages/datasets,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",http://www.cellimagelibrary.org/pages/contribute,"<p>This library is a public and easily accessible resource database of images, videos, and animations of cells, capturing a wide diversity of organisms, cell types, and cellular processes. The purpose of this database is to advance research on cellular activity, with the ultimate goal of improving human health.</p>",National Center for Microscopy and Imaging Research; National Institute of General Medical Sciences; U.S. National Institutes of Health,<p>Cell Biology; metabolism; microscopy data; plasma; cell process; Endoplasmic reticulum; Endosome; Eukaryotic cell; Lysosome; Microtubule organizing centers; Mitrochondrion; Nucleolus; Nucleus; Paramecium; Vacuole; Vesicle;</p>,http://www.cellimagelibrary.org/home
+The Biological Magnetic Resonance Data Bank,BMRB,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Allows for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://bmrb.io,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://bmrb.io/deposit/,"<p>BioMagResBank (BMRB) collects, annotates, archives, and disseminates spectral and quantitative data derived from nuclear magnetic resonance (NMR) spectroscopic investigations of biological macromolecules and metabolites. These NMR experimental data underlie the three-dimensional structures of many proteins and nucleic acids and provide important insights into their dynamics, chemical properties, and molecular interactions. Data archived at BMRB include primary data sets and derived results, such as chemical shifts, couplings, and cross relaxations associated with three- dimensional structures, parameters that specify local dynamics, pKa values assigned to specific sites, H- exchange rates, and evidence for conformational heterogeneity and molecular interactions.</p>","National Library of Medicine, National Institutes of Health, University of Wisconsin-Madison",<p>NMR; biomolecules; genomics; nucleic acids; peptides; proteins; spectroscopy</p>,https://bmrb.io/
+Data Sharing for Demographic Research,DSDR,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration required to access some or all of the data in the repository</li>
+</ul>",https://www.icpsr.umich.edu/web/pages/DSDR/access/index.html,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission does NOT require application and approval</li>
+	<li>Data submission does NOT require specific data standards or forms</li>
+</ul>",https://www.icpsr.umich.edu/web/pages/DSDR/deposit.html,<p>Data Sharing for Demographic Research (DSDR) curates and archives demographic and population studies data in support of its use for secondary analysis.</p>,"Eunice Kennedy Shriver National Institute of Child Health and Human Development; Inter-university Consortium for Political and Social Research; US Department of Health and Human Services, National Institutes of Health; University of Michigan, Population S",<p>census data; demographic survey; family; health; immigration; migration; mortality; population; statistics</p>,"Eunice Kennedy Shriver National Institute of Child Health and Human Development; Inter-university Consortium for Political and Social Research; US Department of Health and Human Services, National Institutes of Health; University of Michigan, Population Studies Center"
+Xenbase,,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",http://www.xenbase.org/entry/,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission does NOT require application and approval&nbsp;</li>
+	<li>Data submission does NOT require specific data standards or forms</li>
+</ul>",http://www.xenbase.org/other/static-xenbase/dataSubmission.jsp,"<p>Xenbase provides genomic, expression and functional data available from Xenopus research. Xenopus is an African clawed frog used in biomedical research to study fundamental biological and pathological processes. Xenopus research is done to gain a deeper understanding of human disease through analysis of disease-gene function and modeling.</p>","Cincinnati Children's Hospital, Zorn Lab; Eunice Kennedy Shriver National Institute of Child Health and Human Development; University of Calgary, Vize Lab",<p>BLAST; frog model; gene expression; genes; genome; protocols; reagents</p>,https://www.xenbase.org/entry/
+Mouse Phenome Database,MPD,basic_html,"<ul>
+	<li>Can provide controlled access to sensitives or protected datasets</li>
+	<li>Allows for embargo</li>
+	<li>Registration required to access some or all of the data in the repository&nbsp;</li>
+</ul>",https://phenome.jax.org/about/search_help,"<ul>
+	<li>Data submission NOT restricted y funder</li>
+	<li>Data submission does NOT require application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",http://phenome.jax.org/about/contributedata,"<p>The Mouse Phenome Database (MPD) is a database of behavioral, morphological and physiological disease-related characteristics in naive mice and those exposed to drugs, environmental agents or other treatments. it contains both genomic and phenomic data.&nbsp;</p>","National Institutes of Health, National Institute on Drug Abuse; The Jackson Laboratory",<p>blood; bone; brain; cancer; cardiovascular; cell; endocrine; genetic; immune system; muscle; nervous system</p>,http://phenome.jax.org/
+National Addiction &amp; HIV Data Archive Program,NAHDAP,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Does NOT allow for embargo</li>
+	<li>Registration required to access some or all of the data in the repository&nbsp;</li>
+</ul>",https://www.icpsr.umich.edu/web/pages/NAHDAP/data/index.html,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission does NOT require application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",http://www.icpsr.umich.edu/icpsrweb/content/NAHDAP/deposit/index.html,"<p>National Addiction &amp; HIV Data Archive Program (NAHDAP) acquires, preserves and disseminates data relevant to drug addiction and HIV research. Most datasets in NAHDAP are primary data collected from surveys and interviews or obtained from administrative databases.</p>","Inter-university Consortium for Political and Social Research; U.S. Department of Health and Human Services, National Institutes of Health, National Institute on Drug Abuse; U.S. Department of Health and Human Services, National Institutes of Health, Offi",<p>HIV; addiction; alcohol abuse; census data; child care; criminology; drug abuse; mental health</p>,https://www.icpsr.umich.edu/web/pages/NAHDAP/index.html
+FaceBase,,basic_html,"<ul>
+	<li>Can provide controlled access to sensitive or protected datasets</li>
+	<li>Allows for embargo</li>
+	<li>Registration required to access some or all of the data in the repository&nbsp;</li>
+</ul>",https://www.facebase.org/,"<ul>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission does NOT require specific data standards or forms</li>
+</ul>",https://www.facebase.org/help/submitting-data/,"<p>FaceBase is a database of dental, oral and craniofacial research on model organisms and humans. The data offer spotlights high-throughput genetic, molecular, biological, imaging and computational techniques, as well as the database of 3D Facial Norms, developmental atlases and the Ontology of Craniofacial Development and Malformation (OCDM), Human Genome Analysis Interface (HGAI) and other resources.</p>","National Institutes of Health; University of Southern California, Information Sciences Institute",<p>3D facial imaging; GWAS; craniofacial; craniofacial development; dental; enhancer identification; facial morphology; gene expression; genomics; genotype; microCT; orofacial clefts; phenotype; suture; transcriptomics</p>,https://www.facebase.org
+Rat Genome Database,RGD,basic_html,"<ul>
+	<li>Allows for embargo</li>
+	<li>Does NOT provide for controlled access</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://rgd.mcw.edu/wg/data-menu/,"<ul>
+	<li>Data submission requires application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+	<li>Data submission NOT restricted by funder</li>
+</ul>",http://rgd.mcw.edu/registration-entry.shtml,"<p>The Rat Genome Database is a collaborative effort between leading research institutions involved in rat genetic and genomic research to collect, consolidate, and integrate data generated from ongoing rat genetic and genomic research efforts and make these data widely available to the scientific community. In addition, it provides easy access to corresponding data for human and mouse, as well as multiple other models such as chinchilla and 13-lined ground squirrel, facilitating cross-species comparisons.</p>","Medical College of Wisconsin, Human and Molecular Genetics Center, Biomedical Informatics; National Institutes of Health, National Heart Lung and Blood Institute",<p>disease; genomics; pathway; phenotype; rat genetics</p>,https://rgd.mcw.edu
+Dryad,,basic_html,"<ul>
+	<li>Does NOT provide for controlled access</li>
+	<li>Allows for embargo</li>
+	<li>Registration NOT required to access data</li>
+</ul>",https://datadryad.org/search,"<ul>
+	<li>Possible fee for submission</li>
+	<li>Data submission NOT restricted by funder</li>
+	<li>Data submission does NOT require application and approval</li>
+	<li>Data submission requires use of specific data standards or forms</li>
+</ul>",https://datadryad.org/stash/submission_process#upload-methods,"<p>Dryad is an international repository of data, particularly data for which no specialized repository exists. Dryad provides a general-purpose home for a wide diversity of data types, making them discoverable, freely reusable, and citable.</p>",California Digital Library; Dryad; National Science Foundation,<p>biodiversity; interdisciplinary; generalist; scientific and medical publications</p>,https://datadryad.org/stash
