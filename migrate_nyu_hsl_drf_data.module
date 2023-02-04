@@ -26,34 +26,6 @@ function migrate_nyu_hsl_drf_data_help($route_name, RouteMatchInterface $route_m
 }
 
 /**
- * Deletes the existing configuration and imports new configuration from YAML file.
- */
-function migrate_nyu_hsl_drf_data_change_default_view_mode() {
-	// Get the config factory.
-	$config_factory = \Drupal::service('config.factory');
-
-	// Load the view modes config.
-	$view_modes = $config_factory->getEditable('core.entity_form_display.paragraph.service_paragraphs.default');
-
-	// Set the default view mode for the Paragraph type.
-	$view_modes->set('paragraph.nyu_hsl', [
-		'label' => 'NYU HSL Teaser',
-		'custom_settings' => 1,
-	])->save();
-
-	// Set the default view mode for the Paragraph type in the node display settings.
-	$display = $config_factory->getEditable('core.entity_view_display.paragraph.service_paragraphs.default');
-	$display->setComponent('field_paragraph', [
-		'type' => 'entity_reference_paragraphs',
-		'settings' => [
-			'view_mode' => 'nuy_hsl',
-		],
-		'weight' => 0,
-	])->save();
-
-}
-
-/**
  * Implements hook_uninstall().
  */
 function migrate_nyu_hsl_drf_data_uninstall()

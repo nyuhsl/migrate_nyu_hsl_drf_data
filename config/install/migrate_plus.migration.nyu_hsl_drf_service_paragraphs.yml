@@ -4,10 +4,13 @@ status: true
 
 migration_group: nyu_hsl_drf_data_migrations
 source:
+  delimiter: ','
+  header_row_count: 1
   path: modules/custom/migrate_nyu_hsl_drf_data/source/service_paragraphs.csv
 
   ids:
     - title
+
   constants:
     # Everything gets created as admin
     uid: 1
@@ -15,14 +18,41 @@ source:
 process:
   uid: constants/uid
   field_repository_abbreviation: repository_abbreviation
-  field_data_access_attributes: data_access_attributes
-  field_data_access_policy: data_access_policy
-  field_data_submission_attributes: data_submission_attributes
-  field_data_submission_policy: data_submission_policy
-  field_description: description
+
+  field_data_access_attributes/value: data_access_attributes
+  field_data_access_attributes/format:
+    plugin: default_value
+    default_value: basic_html
+
+  field_data_access_policy/value: data_access_policy
+  field_data_access_policy/format:
+    plugin: default_value
+    default_value: basic_html
+
+  field_data_submission_attributes/value: data_submission_attributes
+  field_data_submission_attributes/format:
+    plugin: default_value
+    default_value: basic_html
+
+  field_data_submission_policy/value: data_submission_policy
+  field_data_submission_policy/format:
+    plugin: default_value
+    default_value: basic_html
+
+  field_description/value: description
+  field_description/format:
+    plugin: default_value
+    default_value: basic_html
+
   field_funders: funders
-  field_keywords: keywords
-  field_repository_url: repository_url
+
+  field_keywords/value: keywords
+  field_keywords/format:
+    plugin: default_value
+    default_value: basic_html
+
+  field_repository_url/value: repository_url
+  field_repository_url/format: basic_html
 
 destination:
   plugin: 'entity_reference_revisions:paragraph'
@@ -30,4 +60,5 @@ destination:
 
 migration_dependencies:
   required:
+    - nyu_hsl_drf_taxonomy_control_types
   optional: { }

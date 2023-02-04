@@ -1,4 +1,4 @@
-﻿title,field_repository_abbreviation,field_data_access_format,,field_data_access_policy,field_data_submission_attributes,field_data_submission_policy,field_description,field_funders,field_keywords,field_repository_url
+﻿title,repository_abbreviation,data_access_format,data_access_attributes,data_access_policy,data_submission_attributes,data_submission_policy,description,funders,keywords,repository_url
 Help,,,,,,,,,,
 database of Genotypes and Phenotypes,dbGaP,basic_html,"<ul>
 	<li>Can provide controlled access to sensitive or protected datasets</li>
@@ -261,7 +261,7 @@ dbVar,,basic_html,"<ul>
 	<li>Data submission NOT restricted by funder</li>
 	<li>Data submission requires application and approval</li>
 	<li>Data submission requires use of specific data standards or forms</li>
-</ul>",https://www.ncbi.nlm.nih.gov/dbvar/content/submission/,"<p>dbSNP is a general public archive of all short sequence variation, not just single nucleotide substitutions that occur frequently enough in a population to be termed polymorphic, but also rare variants, including those with clinical assertions in ClinVar. dbSNP includes a broad collection of simple genetic variations such as single-base nucleotide substitutions, small-scale multi-base deletions or insertions, and microsatellite repeats.</p>","National Center for Biotechnology Information; National Institutes of Health, National Library of Medicine",<p>allele origin; diseases; genotype; germline; microsatellites; nucleotide; sequences</p>,https://www.ncbi.nlm.nih.gov/snp/
+</ul>",https://www.ncbi.nlm.nih.gov/dbvar/content/submission/,"<p>dbVar is NCBI's database of human genomic Structural Variation — large variants >50 bp including insertions, deletions, duplications, inversions, mobile elements, translocations, and complex variants.</p>","National Center for Biotechnology Information; National Institutes of Health, National Library of Medicine",<p>allele origin; diseases; genotype; germline; microsatellites; nucleotide; sequences</p>,https://www.ncbi.nlm.nih.gov/snp/
 Gene Expression Omnibus,GEO,basic_html,"<ul>
 	<li>Does NOT provide for controlled access</li>
 	<li>Allows for embargo</li>
