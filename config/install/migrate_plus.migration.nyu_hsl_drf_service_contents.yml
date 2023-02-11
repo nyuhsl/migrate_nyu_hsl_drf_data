@@ -15,13 +15,16 @@ source:
 
 process:
   uid: constants/uid
-  field_tile: title
+  title: title
 
-  field_facets:
+  field_facet_matches:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: facet_matches
     -
       plugin: explode
       delimiter: '|'
-      source: facet_matches
     -
       plugin: callback
       callable: trim
@@ -35,12 +38,17 @@ process:
     migration: nyu_hsl_drf_service_paragraphs
     source: title
 
-  #field_service_paragraphs:
-  #  plugin: sub_process
-  #  source: '@pseudo_field_paragraphs'
-  #  process:
-  #    target_id: '0'
-  #    target_revision_id: '1'
+  field_service_paragraphs:
+    -
+      plugin: skip_on_empty
+      method: process
+      source:
+        - '@pseudo_field_paragraphs'
+    -
+      plugin: sub_process
+      process:
+        target_id: '0'
+        target_revision_id: '1'
 
   field_summary:
     plugin: default_value
