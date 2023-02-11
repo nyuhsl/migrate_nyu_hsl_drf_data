@@ -1,0 +1,57 @@
+id: nyu_hsl_drf_service_contents
+label: Migrate Service Contents
+status: true
+
+migration_group: nyu_hsl_drf_data_migrations
+source:
+  path: modules/custom/migrate_nyu_hsl_drf_data/source/service_contents.csv
+
+  ids:
+    - title
+
+  constants:
+    # Everything gets created as admin
+    uid: 1
+
+process:
+  uid: constants/uid
+  field_tile: title
+
+  field_facets:
+    -
+      plugin: explode
+      delimiter: '|'
+      source: facet_matches
+    -
+      plugin: callback
+      callable: trim
+    -
+      plugin: migration_lookup
+      migration: nyu_hsl_drf_taxonomy_facets
+      no_stub: true
+
+  pseudo_field_paragraphs:
+    plugin: migration_lookup
+    migration: nyu_hsl_drf_service_paragraphs
+    source: title
+
+  #field_service_paragraphs:
+  #  plugin: sub_process
+  #  source: '@pseudo_field_paragraphs'
+  #  process:
+  #    target_id: '0'
+  #    target_revision_id: '1'
+
+  field_summary:
+    plugin: default_value
+    default_value: ''
+
+destination:
+  plugin: 'entity:node'
+  default_bundle: service
+
+migration_dependencies:
+  required:
+    - nyu_hsl_drf_taxonomy_facets
+    - nyu_hsl_drf_service_paragraphs
+  optional: { }

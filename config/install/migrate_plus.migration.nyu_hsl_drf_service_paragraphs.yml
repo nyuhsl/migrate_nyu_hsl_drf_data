@@ -1,11 +1,9 @@
 id: nyu_hsl_drf_service_paragraphs
-label: Migrate NYU HSL Data Repository Finder Service Paragraphs
+label: Migrate Service Paragraphs
 status: true
 
 migration_group: nyu_hsl_drf_data_migrations
 source:
-  delimiter: ','
-  header_row_count: 1
   path: modules/custom/migrate_nyu_hsl_drf_data/source/service_paragraphs.csv
 
   ids:

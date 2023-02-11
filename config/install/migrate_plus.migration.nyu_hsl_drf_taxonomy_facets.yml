@@ -1,16 +1,14 @@
 id: nyu_hsl_drf_taxonomy_facets
-label: Migrate NYU HSL Data Repository Finder Facets Taxonomy
+label: Migrate Facets Taxonomy
 status: true
 
 migration_group: nyu_hsl_drf_data_migrations
 source:
-  delimiter: ','
-  header_row_count: 1
   path: modules/custom/migrate_nyu_hsl_drf_data/source/taxonomy_facets.csv
 
   # Each migration needs a unique key per row in the csv.  Here we're using the tid.
   ids:
-    - tid
+    - name
 
   constants:
     # Everything gets created as admin
@@ -28,7 +26,15 @@ process:
     bundle: control_type
     entity_type: taxonomy_term
     ignore_case: true
-
+  parent:
+    plugin: entity_lookup
+    source: parent
+    value_key: name
+    bundle_key: vid
+    bundle: facets
+    entity_type: taxonomy_term
+    ignore_case: true
+  weight: weight
 destination:
   plugin: 'entity:taxonomy_term'
   default_bundle: facets

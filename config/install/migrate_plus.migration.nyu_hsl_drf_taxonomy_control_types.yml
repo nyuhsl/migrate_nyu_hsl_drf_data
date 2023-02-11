@@ -1,5 +1,5 @@
 id: nyu_hsl_drf_taxonomy_control_types
-label: Migrate NYU HSL Data Repository Finder Control Types Taxonomy
+label: Migrate Control Types Taxonomy
 status: true
 
 migration_group: nyu_hsl_drf_data_migrations

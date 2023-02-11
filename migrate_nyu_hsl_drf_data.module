@@ -52,6 +52,7 @@ function migrate_nyu_hsl_drf_data_uninstall()
 	'migrate_plus.migration.nyu_hsl_drf_taxonomy_control_types',
 	'migrate_plus.migration.nyu_hsl_drf_taxonomy_facets',
 	'migrate_plus.migration.nyu_hsl_drf_service_paragraphs',
+	'migrate_plus.migration.nyu_hsl_drf_service_contents',
 	'migrate_plus.migration_group.nyu_hsl_drf_data_migrations',
   ];
 

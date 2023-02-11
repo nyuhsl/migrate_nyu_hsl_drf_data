@@ -1,44 +1,44 @@
-tid,control_type,name,parent
-512,checkbox,Are you interested in repositories where...,root
-522,checkbox,Any type or subject of data is accepted,Are you interested in repositories where...
-362,checkbox,"Data uploads are free, regardless of content or size",Are you interested in repositories where...
-312,checkbox,Would you like to be able to limit access to your data in any of the following ways?,root
-332,checkbox,Embargo uploaded data,Would you like to be able to limit access to your data in any of the following ways?
-322,checkbox,Control access to sensitive or protected data,Would you like to be able to limit access to your data in any of the following ways?
-342,checkbox,Require registration to access data,Would you like to be able to limit access to your data in any of the following ways?
-382,checkbox,Does your data include any of these special data types/formats?,root
-402,radio,Audiovisual,Does your data include any of these special data types/formats?
-412,radio,Code or Software,Does your data include any of these special data types/formats?
-392,radio,Image,Does your data include any of these special data types/formats?
-422,checkbox,Do you want a repository designed specifically for one of these special topics:,root
-432,checkbox,Cancer,Do you want a repository designed specifically for one of these special topics:
-462,checkbox,Clinical Trials,Do you want a repository designed specifically for one of these special topics:
-452,checkbox,Neuroscience,Do you want a repository designed specifically for one of these special topics:
-442,checkbox,OMICs,Do you want a repository designed specifically for one of these special topics:
-472,checkbox,"Some repositories specialize in a specific subjects of study. If you'd like to use a repository with a speciality, what is your subject(s) of study?",root
-492,radio,Animal,"Some repositories specialize in a specific subjects of study. If you'd like to use a repository with a speciality, what is your subject(s) of study?"
-502,radio,Cell,"Some repositories specialize in a specific subjects of study. If you'd like to use a repository with a speciality, what is your subject(s) of study?"
-482,radio,Human,"Some repositories specialize in a specific subjects of study. If you'd like to use a repository with a speciality, what is your subject(s) of study?"
-52,checkbox,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",root
-302,checkbox,OD,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-292,checkbox,NLM,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-62,checkbox,Common Fund,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-182,checkbox,NIBIB,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-72,checkbox,NCATS,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-82,checkbox,NCI,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-92,checkbox,NEI,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-102,checkbox,NHGRI,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-132,checkbox,NHLBI,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-152,checkbox,NIA,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-162,checkbox,NIAA,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-172,checkbox,NIAID,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-112,checkbox,NICHD,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-282,checkbox,NINDS,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-202,checkbox,NIDA,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-222,checkbox,NIDCD,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-232,checkbox,NIDCR,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-242,checkbox,NIDDK,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-252,checkbox,NIEHS,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-122,checkbox,NIGMS,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-262,checkbox,NIH,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
-272,checkbox,NIMH,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here"
+tid,control_type,name,parent,weight
+512,checkbox,Are you interested in repositories where...,,0
+312,checkbox,Would you like to be able to limit access to your data in any of the following ways?,,19
+382,checkbox,Does your data include any of these special data types/formats?,,21
+422,checkbox,Do you want a repository designed specifically for one of these special topics:,,23
+472,checkbox,"Some repositories specialize in a specific subjects of study. If you'd like to use a repository with a speciality, what is your subject(s) of study?",,25
+52,checkbox,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",,27
+62,checkbox,Common Fund,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",2
+72,checkbox,NCATS,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",4
+82,checkbox,NCI,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",5
+92,checkbox,NEI,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",6
+102,checkbox,NHGRI,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",7
+112,checkbox,NICHD,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",12
+122,checkbox,NIGMS,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",19
+132,checkbox,NHLBI,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",8
+152,checkbox,NIA,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",9
+162,checkbox,NIAA,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",10
+172,checkbox,NIAID,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",11
+182,checkbox,NIBIB,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",3
+202,checkbox,NIDA,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",14
+222,checkbox,NIDCD,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",15
+232,checkbox,NIDCR,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",16
+242,checkbox,NIDDK,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",17
+252,checkbox,NIEHS,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",18
+262,checkbox,NIH,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",20
+272,checkbox,NIMH,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",21
+282,checkbox,NINDS,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",13
+292,checkbox,NLM,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",1
+302,checkbox,OD,"Are you interested in a repository funded by a specific NIH ICO? If so, select the ICO here",0
+362,checkbox,"Data uploads are free, regardless of content or size",Are you interested in repositories where...,1
+522,checkbox,Any type or subject of data is accepted,Are you interested in repositories where...,0
+432,checkbox,Cancer,Do you want a repository designed specifically for one of these special topics:,0
+442,checkbox,OMICs,Do you want a repository designed specifically for one of these special topics:,3
+452,checkbox,Neuroscience,Do you want a repository designed specifically for one of these special topics:,2
+462,checkbox,Clinical Trials,Do you want a repository designed specifically for one of these special topics:,1
+392,radio,Image,Does your data include any of these special data types/formats?,2
+402,radio,Audiovisual,Does your data include any of these special data types/formats?,0
+412,radio,Code or Software,Does your data include any of these special data types/formats?,1
+482,radio,Human,"Some repositories specialize in a specific subjects of study. If you'd like to use a repository with a speciality, what is your subject(s) of study?",2
+492,radio,Animal,"Some repositories specialize in a specific subjects of study. If you'd like to use a repository with a speciality, what is your subject(s) of study?",0
+502,radio,Cell,"Some repositories specialize in a specific subjects of study. If you'd like to use a repository with a speciality, what is your subject(s) of study?",1
+322,checkbox,Control access to sensitive or protected data,Would you like to be able to limit access to your data in any of the following ways?,1
+332,checkbox,Embargo uploaded data,Would you like to be able to limit access to your data in any of the following ways?,0
+342,checkbox,Require registration to access data,Would you like to be able to limit access to your data in any of the following ways?,2
