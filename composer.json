@@ -4,11 +4,11 @@
     "description": "Custom module for migrating NYU HSL Data Repository Finder data.",
     "keywords": [
     ],
-    "homepage": "https://github.com/akabhan/migrate_nyu_hsl_drf_data",
+    "homepage": "https://github.com/nyuhsl/migrate_nyu_hsl_drf_data",
     "minimum-stability": "dev",
     "support": {
-        "issues": "https://github.com/akabhan/migrate_nyu_hsl_drf_data/issues",
-        "source": "https://github.com/akabhan/migrate_nyu_hsl_drf_data.git"
+        "issues": "https://github.com/nyuhsl/migrate_nyu_hsl_drf_data/issues",
+        "source": "https://github.com/nyuhsl/migrate_nyu_hsl_drf_data.git"
     },
     "require": {
         "drupal/migrate_tools": "^4.0",
