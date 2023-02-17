@@ -1,6 +1,13 @@
 {
     "name": "nyuhsl/migrate_nyu_hsl_drf_data",
     "type": "drupal-custom-module",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Brian Han",
+            "email": "brian.han@nyulangone.org"
+        }
+    ],
     "description": "Custom module for migrating NYU HSL Data Repository Finder data.",
     "keywords": [
     ],
