@@ -60,6 +60,7 @@ destination:
 
 migration_dependencies:
   required:
+    - nyu_hsl_drf_taxonomy_control_types
     - nyu_hsl_drf_taxonomy_facets
     - nyu_hsl_drf_service_paragraphs
   optional: { }

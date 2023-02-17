@@ -1,5 +1,5 @@
 {
-    "name": "migrate_nyu_hsl_drf_data",
+    "name": "nyuhsl/migrate_nyu_hsl_drf_data",
     "type": "drupal-custom-module",
     "description": "Custom module for migrating NYU HSL Data Repository Finder data.",
     "keywords": [
