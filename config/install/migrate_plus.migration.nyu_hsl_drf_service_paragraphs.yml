@@ -49,7 +49,10 @@ process:
     plugin: default_value
     default_value: basic_html
 
-  field_repository_url/value: repository_url
+  field_repository_url/value:
+    plugin: get
+    source: repository_url
+    default_value: ''
   field_repository_url/format: basic_html
 
 destination:
